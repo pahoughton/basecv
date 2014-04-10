@@ -2,7 +2,7 @@
 
 [![Test Build Status](https://travis-ci.org/pahoughton/basecv.png)](https://travis-ci.org/pahoughton/basecv)
 
-'''
+```
 Usage: basecv [options]
 
 Options:
@@ -16,8 +16,7 @@ Options:
                       number to convert (0-MAX_ULONG)
   -r, --raw           output the 'raw' number (no commas or spaces).
 
-
-'''
+```
 
 ## Install
 
