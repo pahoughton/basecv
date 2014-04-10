@@ -1,0 +1,16 @@
+# .travis.yml - 2014-04-09 20:24
+#
+# Copyright (c) 2014 Paul Houghton <paul4hough@gmail.com>
+
+language: c
+notifications:
+  email:
+    - paul4hough@gmail.com
+
+  - echo -e "Host heroku.com StrictHostKeyChecking no\n" >> ~/.ssh/config
+  - echo -e "Host github.com StrictHostKeyChecking no\n" >> ~/.ssh/config
+  - uname -a
+  - env
+
+script:
+  - make check
